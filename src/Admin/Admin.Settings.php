@@ -1,0 +1,29 @@
+<?php
+// Initialize the session
+session_start();
+ 
+// Check if the user is logged in, if not then redirect him to login page
+
+?>
+ 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Welcome</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.css">
+    <style type="text/css">
+        body{ font: 14px sans-serif; text-align: center; }
+    </style>
+</head>
+<body>
+    <div class="page-header">
+        <h1>Hi, <b><?php echo htmlspecialchars($_SESSION["admin"]);?></b>. Welcome to our site.</h1>
+    </div>
+    <p>
+       
+        <a href="adminlogout.php" class="btn btn-danger">Sign Out from Your Account</a>
+		<button class="button1"><a href="Admin.Member.php">Continue to the Account</a></button>
+    </p>
+</body>
+</html>

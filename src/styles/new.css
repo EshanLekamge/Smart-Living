@@ -1,0 +1,24 @@
+table,th,th{
+	align:right;
+    border: 1px solid red;
+}
+
+th {
+  background-color: blue;
+  color: white;
+}
+
+td {
+  background-color: green;
+  color: white;
+}
+
+table{
+  float: right;
+  position: absolute;
+  right: 0px;
+  width: 1200px;
+  margin-top: -450px;
+  margin-right: 10px;
+}
+

@@ -1,0 +1,221 @@
+body
+{
+	background-image : url("../images/wallhaven-493057.jpg");
+	background-repeat : no-repeat;
+	background-attachment : fixed;
+	background-position : center;
+	
+	
+}
+a
+	{
+		text-decoration : none;
+		color : white;
+	}
+
+ul.mainmenu
+	{background-color : #778899;
+	 overflow : hidden;
+	 list-style-type : none;
+	 
+
+	}
+
+li 
+	{float : left;
+	 color : white;
+	 display : block;
+	 padding : 14px 16px;
+	 text-decoration : none;
+	 font-family : Century Gothic;
+	 font-size : 14px;
+	 text-shadow : 1px 1px black;
+
+	}
+li:hover
+	{background-color : #696969;
+	 font-size : 20px;
+	}
+	
+.mainPageLinks
+	{
+		background-color : 	#FFEBCD;
+		background-repeat : no-repeat;
+		background-attachment : fixed;
+		background-position : center;
+		padding : 10px;
+		border-style : double;
+		border-width : 4px;
+		border-color : #FFEBCD;
+		margin-top : 30px;
+		
+	}
+
+.Products
+	{
+		
+		margin-top : 60px;
+		font-family : Arial;
+	 
+	}
+
+
+.title
+	{
+		font-family : Bahnschrift SemiCondensed;
+		color : white;
+		font-size : 50px;
+		text-shadow: 2px 2px black;
+		
+	}
+	
+.title2
+	{
+		font-family : Agency FB;
+		color : white;
+		font-size : 30px;
+		letter-spacing : 4px;
+		text-shadow: 2px 2px black;
+	}
+
+.logo
+	{
+		display : block;
+		margin-left : auto;
+		margin-right : auto;
+	}
+
+.social
+	{
+		width : 60px;
+		height : 60px;
+		margin-top : 20px;
+		
+		
+	}
+	
+.contacts
+	{
+		width : 40px;
+		height : 40px;
+		
+		
+	}
+
+.bottom
+	{
+		background-color : rgba(0,0,0,0.8);
+		margin-top : 60px;
+		height : 350px;
+		
+	}
+.copyright
+	{
+		background-color : rgba(0,0,0,0.95);
+		color : Tomato;
+		size : 25px;
+		font-family : Arial;
+
+		
+	}
+.socialmedia
+	{
+		color : white;
+		text-shadow : 1px 1px black;
+		
+	}
+.contactdetails
+	{
+		color : white;
+		text-shadow : 1px 1px black;
+	}
+.footerdetails
+	{
+		color : Tomato;
+		size : 15px;
+		font-family : Arial;
+	}
+		
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+  
+}
+
+.container {
+  position: relative;
+  max-width: 800px;
+  margin:0 auto;
+}
+
+.container img {vertical-align: middle;}
+
+.container .content {
+  position: absolute;
+  bottom: 0;
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0.5); /* Black background with 0.01 opacity */
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
+}
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h3{
+	text-color:black;
+	font-family:arial;
+}
+/* Float three columns side by side */
+.column {
+  float: left;
+  width: 25%;
+  padding: 0 10px;
+ 
+}
+
+/* Remove extra left and right margins, due to padding */
+.row {margin: 0 -5px;}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 50%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+/* Style the counter cards */
+.card {
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: center;
+  background-color: white;
+  margin-left: 160px;
+  width: 100%;
+}		
+	
+
+
+	
+
+
+	
+
+	

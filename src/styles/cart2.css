@@ -1,0 +1,213 @@
+body
+{
+	background-image : url("../images/wallhaven-493057.jpg");
+	background-repeat : no-repeat;
+	background-attachment : fixed;
+	background-position : center;
+	color : black;
+	
+	
+}
+a
+	{
+		text-decoration : none;
+		color : white;
+	}
+
+ul.mainmenu
+	{background-color : #778899;
+	 overflow : hidden;
+	 list-style-type : none;
+	 
+
+	}
+
+li 
+	{float : left;
+	 color : white;
+	 display : block;
+	 padding : 14px 16px;
+	 text-decoration : none;
+	 font-family : Century Gothic;
+	 font-size : 14px;
+	 text-shadow : 1px 1px black;
+
+	}
+li:hover
+	{background-color : #696969;
+	 font-size : 20px;
+	}
+	
+.mainPageLinks
+	{
+		background-color : 	#FFEBCD;
+		background-repeat : no-repeat;
+		background-attachment : fixed;
+		background-position : center;
+		padding : 10px;
+		border-style : double;
+		border-width : 4px;
+		border-color : #FFEBCD;
+		margin-top : 30px;
+		
+	}
+
+.Products
+	{
+		
+		margin-top : 60px;
+		font-family : Arial;
+	 
+	}
+
+h2
+	{
+	 background-color : #333;
+	 overflow : hidden;
+	 color : white;
+	 display : block;
+	 text-decoration : none;
+	}
+
+h3
+	{
+	 color : white;
+	 display : block;
+	 text-decoration : none;
+	}
+.title
+	{
+		font-family : Bahnschrift SemiCondensed;
+		color : white;
+		font-size : 50px;
+		text-shadow: 2px 2px black;
+		
+	}
+	
+.title2
+	{
+		font-family : Agency FB;
+		color : white;
+		font-size : 30px;
+		letter-spacing : 4px;
+		text-shadow: 2px 2px black;
+	}
+
+.logo
+	{
+		display : block;
+		margin-left : auto;
+		margin-right : auto;
+	}
+
+.social
+	{
+		width : 60px;
+		height : 60px;
+		margin-top : 20px;
+		
+		
+	}
+	
+.contacts
+	{
+		width : 40px;
+		height : 40px;
+		
+		
+	}
+
+.bottom
+	{
+		background-color : rgba(0,0,0,0.8);
+		margin-top : 60px;
+		height : 350px;
+		
+	}
+.copyright
+	{
+		background-color : rgba(0,0,0,0.95);
+		color : Tomato;
+		size : 25px;
+		font-family : Arial;
+
+		
+	}
+.socialmedia
+	{
+		color : white;
+		text-shadow : 1px 1px black;
+		
+	}
+.contactdetails
+	{
+		color : white;
+		text-shadow : 1px 1px black;
+	}
+.footerdetails
+	{
+		color : Tomato;
+		size : 15px;
+		font-family : Arial;
+	}
+		
+.back {
+	background-color:rgba(255,255,255,0.8);
+	
+}		
+	
+.checkout-panel {
+  display: block;
+  margin-left : auto;
+  margin-right : auto;
+  
+}
+	
+.container
+{
+background-color:white;
+width:500px;}
+
+ 
+.checkout-panel {
+  
+  width: 940px;
+  height: 500px;
+  background-color: rgb(255, 255, 255);
+ 
+}
+
+.panel-body {
+  padding: 45px 80px 0;
+
+}
+ 
+.title3 {
+  margin-top: 0;
+  margin-bottom: 40px;
+  color: white;
+}
+	
+.input-fields label {
+  display: block;
+  margin-bottom: 10px;
+  color: black;
+}
+ 
+.btn {
+  font-size: 16px;
+  width: 130px;
+  height: 48px;
+  border: none;
+  border-radius: 23px;
+}
+ 
+
+ 
+.next-btn {
+  color: #fff;
+  background:black;
+}
+ 
+
+
